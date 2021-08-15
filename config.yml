@@ -1,0 +1,64 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: marc zen
+theme: 'PaperMod'
+params:
+  label: 
+    icon: '/img/marczen-logo.jpg'
+    iconHeight: 35
+  homeInfoParams:
+    Title: 마크 젠의 블로그 👋
+    Content: >
+
+      - 제 이름은 강병준이고, 서울에 거주중이며 현재 성균관대학교 심리학과를 다니고 있어요.
+     
+      -
+
+      - 🥅 **삶의 목표** (2021.08)
+
+      1. "왜"에 대한 답을 갖고
+
+      2. 생산성을 최대로 유지해서
+
+      3. _새로운 것을 만들고_ 배움으로써
+
+      4. 세상을 더 나은 곳으로 만드는 것
+      
+      - 🛠 **나의 툴**
+
+        - _풀스택 웹 개발_ (JavaScript, Node, React.js, Express.js, MongoDB, HTML, CSS, Tailwind CSS)
+        - _UI/UX 디자인 & 프로토타이핑_ (figma)
+        - _스타트업과 PM_
+        - _음악 프로듀싱_ (Ableton Live)
+
+      -
+
+      - 💪 **경력**
+
+        - jungl 스타트업 창업 및 1년간 운영 (프론트엔드 개발, UI/UX 디자인 및 PM)
+        - 음악 프로듀서(taiji)로 한국 top 100 차트 인 (지니, 벅스 등) [노래듣기](https://www.melon.com/song/detail.htm?songId=32743111)
+        - product hunt 릴리즈 및 풀스택 웹 개발 & UI/UX 디자인 프로젝트 다수
+   
+      -
+ 
+      - 👨‍💻 **현재 무엇을 하고 있나요?**
+
+      - 블록체인 개발 공부 중
+        
+      -
+ 
+      - 👨🏻‍🔬 **현재 내가 부족한 부분들 (노력 중)**
+
+      - 과한 열정이 현실을 왜곡하는 경우가 존재함
+
+      - "프로젝트를 완성짓겠다"는 책임 의식과 절박함 부족
+
+      - 시장에 아이디어를 선보이는 데에 대한 공포감 존재 (완벽주의라는 탈을 쓴 겁쟁이)
+
+      - 인생 선배와 멘토(스타트업, 개발, 블록체인에 도움을 줄 수 있는 사람)의 부재 
+
+
+    ShowPostNavLinks: true
+    ShowReadingTime: true
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
