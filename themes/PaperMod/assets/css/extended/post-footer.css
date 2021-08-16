@@ -1,0 +1,39 @@
+.post-kakao-alarm {
+  background-color: #fff;
+  display: flex;
+  padding: 24px 32px;
+  border-radius: 24px;
+  justify-content: space-between;
+  box-shadow: 0 2px 15px 0 rgba(210, 214, 220, 0.5);
+}
+
+.channel-add-button {
+  background-color: #ffe812;
+  height: 44px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.post-kakao-alarm-r-img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 528px) {
+  .post-kakao-alarm {
+    flex-direction: column;
+  }
+
+  .channel-add-button {
+    width: 200px;
+    margin-bottom: 16px;
+  }
+
+  .post-kakao-alarm-r-img {
+    width: 100%;
+  }
+}

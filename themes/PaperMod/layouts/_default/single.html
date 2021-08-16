@@ -20,7 +20,8 @@
     </div>
     {{- end }}
   </header>
-  {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
+  {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden
+  }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
   {{- if (.Param "ShowToc") }}
   {{- partial "toc.html" . }}
@@ -31,7 +32,30 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
   <footer class="post-footer">
-    {{- if .Params.tags }}
+
+
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+      Kakao.init('5db6dcff26bf6b0d7fe31e81aed5915a'); // initalizing Kakao JavaScript SDK
+
+      // onClick event handler for add channel button
+      const addChannel = () => Kakao.Channel.addChannel({ channelPublicId: '_ExoyNs' })
+    </script>
+
+    <div class="post-kakao-alarm">
+      <div class="post-kakao-alarm-left" style="padding: 16px 0;">
+        <p style="font-weight: bold; font-size: 20px; margin-bottom: 8px">새 글 알람받기</p>
+        <p style="font-size: 15px; margin-bottom: 20px;">새 글이 올라올 때 </br> 카카오톡으로 보내드릴게요 🥰</p>
+        <a class="channel-add-button" href="#" onclick="void addChannel();">
+          <img src="/img/kakao-icon.svg" alt="" style="margin-right: 8px; height: 16px;">
+          카톡으로 구독
+        </a>
+      </div>
+      <img class="post-kakao-alarm-r-img" src="/img/marczen-logo.jpg" alt="">
+    </div>
+
+    <!-- IDK what this code is so I just commented it out. -->
+    <!-- {{- if .Params.tags }}
     <ul class="post-tags">
       {{- range ($.GetTerms "tags") }}
       <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
@@ -43,7 +67,7 @@
     {{- end }}
     {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
-    {{- end }}
+    {{- end }} -->
   </footer>
 
   {{- if (.Param "comments") }}
