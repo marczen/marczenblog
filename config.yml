@@ -62,3 +62,9 @@ params:
     ShowReadingTime: true
     ShowPostNavLinks: true
     ShowCodeCopyButtons: true
+assets:
+  favicon: "/static/favicon/favicon.ico"
+  favicon16x16:  "static/favicon/favicon-16x16.png"
+  favicon32x32:  "static/favicon/favicon-32x32.png"
+  apple_touch_icon:  "static/favicon/apple-touch-icon.png"
+  # safari_pinned_tab:  "<link / absolute url>"
