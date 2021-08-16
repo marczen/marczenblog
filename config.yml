@@ -1,13 +1,13 @@
 baseURL: https://marczen.com/ 
 languageCode: ko-kr
-title: 마크 젠의 블로그
+title: marc zen의 블로그
 theme: 'PaperMod'
 params:
   label: 
     icon: '/img/marczen-logo.jpg'
     iconHeight: 35
   homeInfoParams:
-    Title: 마크 젠의 블로그 👋
+    Title: 안녕하세요! 👋
     Content: >
 
       - 제 이름은 강병준이고, 서울에 거주중이며 현재 성균관대학교 심리학과를 다니고 있어요.
