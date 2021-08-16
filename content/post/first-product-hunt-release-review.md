@@ -3,7 +3,7 @@ title: '처음으로 Product Hunt에 앱을 출시한 결과는? 1: 앱 개발 �
 date: 2021-08-14T14:26:16+09:00
 draft: false
 cover:
-  image: '../../static/img/buucket-gif-1.gif'
+  image: '/img/buucket-gif-1.gif'
   alt: 'buucket 구현 영상'
   relative: false
 ---
