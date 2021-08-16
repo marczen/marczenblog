@@ -1,6 +1,6 @@
 baseURL: https://marczen.com/ 
-languageCode: en-us
-title: marc zen
+languageCode: ko-kr
+title: 마크 젠의 블로그
 theme: 'PaperMod'
 params:
   label: 
